@@ -89,21 +89,6 @@ Behavioral patterns focus on **communication between objects** and how responsib
 
 ---
 
-# 📂 Repository Structure
-
-DesignPatterns
-│
-├── CreationalPatterns
-│
-├── StructuralPatterns
-│
-└── BehavioralPatterns
-
-
-Each folder contains Java implementations of the respective design patterns.
-
----
-
 # 💻 Technologies Used
 
 - **Java**
