@@ -1,0 +1,19 @@
+package org.example.Creational.AbstractFactory;
+
+public class LuxuryCarFactory implements CarFactory {
+    private final String brand;
+
+    public LuxuryCarFactory(String brand) {
+        this.brand = brand;
+    }
+
+    @Override
+    public CarInterior createInterior() {
+        return new LuxuryCarInterior();
+    }
+
+    @Override
+    public CarExterior createExterior() {
+        return new LuxuryCarExterior();
+    }
+}
