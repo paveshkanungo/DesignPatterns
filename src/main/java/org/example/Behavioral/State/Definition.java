@@ -5,6 +5,11 @@ public class Definition {
         /* The State Pattern allows an object to change its behavior dynamically at runtime whenever
            there is a change in its internal state.
 
+           Whenever there are multiple operations available and those operations can be performed
+           in specific state only, then that is where this State Pattern can be used. Means, it allows
+           an object to change its behavior dynamically at runtime whenever there is a change in its
+           internal state.
+
            Real Life Example: Traffic Signal
                         State                       Operations
                 Red State (Stop)             action() -> Make Signal Red
