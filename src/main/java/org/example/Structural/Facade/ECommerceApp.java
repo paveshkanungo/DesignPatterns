@@ -6,6 +6,8 @@ public class ECommerceApp {
         System.out.println("====== Facade Design Pattern Demo ======");
         // Client interacts with a simple Facade, not with all subsystems.
 
+        OrderFacade orderFacade = new OrderFacade();
+
         // Place order with one call to Facade
         orderFacade.placeOrder("MacBook Pro", "Credit Card");
 
